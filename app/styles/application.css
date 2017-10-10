@@ -1,0 +1,45 @@
+.bb-carousel {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bb-carousel a, a:hover {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  background: #fff;
+  padding: 5px;
+}
+
+.bb-carousel-list {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.bb-carousel-list li {
+  float: left;
+}
+
+.carousel-item {
+  padding: 5px;
+  width: 210px;
+}
+
+.disabled {
+  color: #ccc;
+}
+
+#prev {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+}
+
+#next {
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+}

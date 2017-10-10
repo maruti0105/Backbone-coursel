@@ -1,0 +1,51 @@
+.bb-carousel {
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.bb-random-image > img {
+  margin: 10px auto;
+  display: block;
+}
+
+.bb-carousel a, a:hover {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  background: #fff;
+  padding: 5px;
+}
+
+.bb-carousel-list {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0 0 0 140px;
+}
+
+.bb-carousel-list li {
+  float: left;
+}
+
+.carousel-item {
+  padding: 5px;
+  width: 210px;
+}
+
+.disabled {
+  color: #ccc;
+  opacity: .5
+}
+
+#prev {
+  position: absolute;
+  bottom: 70px;
+  left: 10px;
+}
+
+#next {
+  position: absolute;
+  bottom: 70px;
+  right: 50px;
+}
